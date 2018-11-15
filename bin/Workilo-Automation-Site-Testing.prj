@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>Workilo-Automation-Site-Testing</name>
+   <tag></tag>
+   <UUID>34bc248d-347f-49f0-b2e8-a6377d9b1611</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
