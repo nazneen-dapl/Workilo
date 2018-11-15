@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>sign up for customer</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/signup_customer</source-url>
+   </source-info>
+   <taken-date>2018-11-12T15:12:20.276</taken-date>
+   <column-names>
+      <column-name>Email</column-name>
+      <column-name>FirstName</column-name>
+      <column-name>LastName</column-name>
+      <column-name>Password</column-name>
+      <column-name>ContactNo</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "ddfgsdfgdfg",
+      "checked": false
+    },
+    {
+      "value": "dfgd",
+      "checked": false
+    },
+    {
+      "value": "dfgdfg",
+      "checked": false
+    },
+    {
+      "value": "dfgdfg",
+      "checked": false
+    },
+    {
+      "value": "ertetetet",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "naz",
+      "checked": false
+    },
+    {
+      "value": "fat",
+      "checked": false
+    },
+    {
+      "value": "admin#123",
+      "checked": false
+    },
+    {
+      "value": "65464988464",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    },
+    {
+      "value": "",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "n1fatma@gmail.com",
+      "checked": false
+    },
+    {
+      "value": "naz",
+      "checked": false
+    },
+    {
+      "value": "fat",
+      "checked": false
+    },
+    {
+      "value": "admin#123",
+      "checked": false
+    },
+    {
+      "value": "65464988464",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "n1fatma@gmail.com",
+      "checked": false
+    },
+    {
+      "value": "naz",
+      "checked": false
+    },
+    {
+      "value": "fat",
+      "checked": false
+    },
+    {
+      "value": "admin#123",
+      "checked": false
+    },
+    {
+      "value": "65464988465",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
