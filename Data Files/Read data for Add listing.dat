@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Read data from excel into add listing</description>
+   <name>Read data for Add listing</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>23a47be0-f291-4536-9e36-35abc1e8d6c6</dataFileGUID>
+   <dataSourceUrl>C:\Users\Asset-192\Desktop\Nazneen Folders\Project for Testing\Workilo Automation\Data Files\add_listing.xls</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
