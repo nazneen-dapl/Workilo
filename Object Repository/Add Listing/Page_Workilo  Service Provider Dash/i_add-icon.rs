@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_add-icon</name>
+   <tag></tag>
+   <elementGuidId>2bcbca6c-6774-4678-a7d2-72d016d5fc2b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;ua-windows_nt ua-windows_nt-6 ua-windows_nt-6-3 ua-chrome ua-chrome-67 ua-chrome-67-0 ua-chrome-67-0-3396 ua-chrome-67-0-3396-99 ua-desktop ua-desktop-windows ua-webkit ua-webkit-537 ua-webkit-537-36 js webkit chrome win js&quot;]/body[1]/div[@class=&quot;inner-page&quot;]/div[@class=&quot;your-shop shop-offers&quot;]/div[@class=&quot;container-narrow clearfix&quot;]/div[@class=&quot;content-fullwidth&quot;]/div[@class=&quot;section&quot;]/div[@class=&quot;offers-list clearfix&quot;]/a[1]/div[@class=&quot;b-wrap&quot;]/div[@class=&quot;block add&quot;]/div[@class=&quot;center&quot;]/i[@class=&quot;add-icon&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//i[@class='add-icon']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>add-icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ua-windows_nt ua-windows_nt-6 ua-windows_nt-6-3 ua-chrome ua-chrome-67 ua-chrome-67-0 ua-chrome-67-0-3396 ua-chrome-67-0-3396-99 ua-desktop ua-desktop-windows ua-webkit ua-webkit-537 ua-webkit-537-36 js webkit chrome win js&quot;]/body[1]/div[@class=&quot;inner-page&quot;]/div[@class=&quot;your-shop shop-offers&quot;]/div[@class=&quot;container-narrow clearfix&quot;]/div[@class=&quot;content-fullwidth&quot;]/div[@class=&quot;section&quot;]/div[@class=&quot;offers-list clearfix&quot;]/a[1]/div[@class=&quot;b-wrap&quot;]/div[@class=&quot;block add&quot;]/div[@class=&quot;center&quot;]/i[@class=&quot;add-icon&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

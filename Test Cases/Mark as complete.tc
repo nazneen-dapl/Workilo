@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Clicking on button Mark service as complete</description>
+   <name>Mark as complete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72d5f6da-6797-4c74-9a56-0e92a09b73a8</testCaseGuid>
+</TestCaseEntity>

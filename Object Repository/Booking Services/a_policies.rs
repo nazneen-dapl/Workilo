@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_policies</name>
+   <tag></tag>
+   <elementGuidId>4303e56c-c175-474e-bae5-1d87e5d9bd3f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#info-3</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>policies</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ua-windows_nt ua-windows_nt-6 ua-windows_nt-6-3 ua-chrome ua-chrome-67 ua-chrome-67-0 ua-chrome-67-0-3396 ua-chrome-67-0-3396-99 ua-desktop ua-desktop-windows ua-webkit ua-webkit-537 ua-webkit-537-36 js webkit chrome win js&quot;]/body[1]/div[@class=&quot;inner-page&quot;]/div[@class=&quot;product-page&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;product-wrap clearfix&quot;]/div[@class=&quot;product-information&quot;]/div[@class=&quot;tabs&quot;]/ul[@class=&quot;slidee&quot;]/li[3]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

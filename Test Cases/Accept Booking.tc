@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Service Provider will accept the booking without any change request</description>
+   <name>Accept Booking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6e4370b9-803b-44fc-b378-821e9410f7f9</testCaseGuid>
+</TestCaseEntity>
