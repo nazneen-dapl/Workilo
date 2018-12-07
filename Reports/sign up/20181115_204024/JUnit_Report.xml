@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="sign up" time="35" tests="1" failures="0" errors="0">
+   <testsuite name="sign up" tests="1" failures="0" errors="0" time="35" timestamp="2018-11-15 20:40:27" hostname="Asset-192 - WINCTRL-I1MBNJ3" id="Test Suites/sign up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\sign up\\20181115_204024"/>
+         <property name="logFiles" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\sign up\\20181115_204024\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asset-192 - WINCTRL-I1MBNJ3"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="7e5408cd7869649e66a67dc3af2b1d2c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Sign-Up for Customer with Valid Inputs" classname="Test Cases/Sign-Up for Customer with Valid Inputs" status="PASSED">
+         <system-out><![CDATA[2018-11-15 20:40:28 - [TEST_CASE][PASSED] - Test Cases/Sign-Up for Customer with Valid Inputs: Test Cases/Sign-Up for Customer with Valid Inputs
+
+2018-11-15 20:40:29 - [TEST_STEP][PASSED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(signup_customer).getRowNumbers(), (row++)]): Browser is closed
+
+2018-11-15 20:40:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-15 20:40:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-15 20:40:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-15 20:40:57 - [MESSAGE][PASSED] - Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-15 20:40:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-15 20:40:58 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-15 20:40:58 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-15 20:40:58 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-15 20:40:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Signup_Customer/customer_menu' is clicked on
+
+2018-11-15 20:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Signup_Customer/customer_menu' is clicked on
+
+2018-11-15 20:40:59 - [TEST_STEP][PASSED] - setText: Text 'naz2@gmail.com' is set on object 'Object Repository/Signup_Customer/email'
+
+2018-11-15 20:40:59 - [MESSAGE][PASSED] - Text 'naz2@gmail.com' is set on object 'Object Repository/Signup_Customer/email'
+
+2018-11-15 20:40:59 - [TEST_STEP][PASSED] - setText: Text 'naz' is set on object 'Object Repository/Signup_Customer/first name'
+
+2018-11-15 20:40:59 - [MESSAGE][PASSED] - Text 'naz' is set on object 'Object Repository/Signup_Customer/first name'
+
+2018-11-15 20:40:59 - [TEST_STEP][PASSED] - setText: Text 'fat' is set on object 'Object Repository/Signup_Customer/Last Name'
+
+2018-11-15 20:41:00 - [MESSAGE][PASSED] - Text 'fat' is set on object 'Object Repository/Signup_Customer/Last Name'
+
+2018-11-15 20:41:00 - [TEST_STEP][PASSED] - setText: Text 'admin#123' is set on object 'Object Repository/Signup_Customer/Password'
+
+2018-11-15 20:41:00 - [MESSAGE][PASSED] - Text 'admin#123' is set on object 'Object Repository/Signup_Customer/Password'
+
+2018-11-15 20:41:00 - [TEST_STEP][PASSED] - setText: Text '65464988465' is set on object 'Object Repository/Signup_Customer/Contact NO'
+
+2018-11-15 20:41:00 - [MESSAGE][PASSED] - Text '65464988465' is set on object 'Object Repository/Signup_Customer/Contact NO'
+
+2018-11-15 20:41:00 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-15 20:41:00 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-15 20:41:00 - [TEST_STEP][PASSED] - Statement - Try: Object: 'Object Repository/Signup_Customer/DuplicateEmail' is clicked on
+
+2018-11-15 20:41:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Signup_Customer/DuplicateEmail' is present
+
+2018-11-15 20:41:02 - [MESSAGE][PASSED] - Object 'Object Repository/Signup_Customer/DuplicateEmail' is present
+
+2018-11-15 20:41:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Signup_Customer/DuplicateEmail' is clicked on
+
+2018-11-15 20:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Signup_Customer/DuplicateEmail' is clicked on
+
+2018-11-15 20:41:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-15 20:41:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 20:40:27 - [TEST_SUITE][PASSED] - sign up: Test Cases/Sign-Up for Customer with Valid Inputs]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

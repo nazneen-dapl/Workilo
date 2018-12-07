@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sign IN,Chrome 70.0.3538.102,,2018-11-21 16:12:02,2018-11-21 16:12:44,41.198s,PASSED
+,,,,,,
+Test Cases/SignInWithExcel,Chrome 70.0.3538.102,,2018-11-21 16:12:03,2018-11-21 16:12:43,40.541s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(SystemLogin).getRowNumbers(), (row++)])",Chrome 70.0.3538.102,,2018-11-21 16:12:04,2018-11-21 16:12:43,39.907s,PASSED

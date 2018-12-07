@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Listing" time="58" tests="0" failures="1" errors="0">
+   <testsuite name="Add Listing" tests="0" failures="1" errors="0" time="58" timestamp="2018-11-15 20:42:17" hostname="Asset-192 - WINCTRL-I1MBNJ3" id="Test Suites/Add Listing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\Add Listing\\20181115_204024"/>
+         <property name="logFiles" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\Add Listing\\20181115_204024\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\Add Listing\\20181115_204024\\1542294795144.png"/>
+         <property name="hostName" value="Asset-192 - WINCTRL-I1MBNJ3"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="5778e8a00ab3ef85b058b5e3e251a8f1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/AddListingWithExcel" classname="Test Cases/AddListingWithExcel" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' located by 'By.xpath: //input[@id = 'manyhours' and @name = 'how_many_hours' and @type = 'text']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:936)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1532079838120.run(Script1532079838120.groovy:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542294624443.run(TempTestSuite1542294624443.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-15 20:42:18 - [TEST_CASE][FAILED] - Test Cases/AddListingWithExcel: Test Cases/AddListingWithExcel FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' located by 'By.xpath: //input[@id = 'manyhours' and @name = 'how_many_hours' and @type = 'text']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:936)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1532079838120.run(Script1532079838120.groovy:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542294624443.run(TempTestSuite1542294624443.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-15 20:42:19 - [TEST_STEP][FAILED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(Read data for Add listing).getRowNumbers(), (row++)]): Unable to set text '1' of object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' located by 'By.xpath: //input[@id = 'manyhours' and @name = 'how_many_hours' and @type = 'text']' not found)
+
+2018-11-15 20:42:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-15 20:42:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-15 20:42:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-15 20:42:31 - [MESSAGE][PASSED] - Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-15 20:42:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-15 20:42:32 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-15 20:42:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/a_Log In' is clicked on
+
+2018-11-15 20:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/a_Log In' is clicked on
+
+2018-11-15 20:42:32 - [TEST_STEP][PASSED] - setText: Text 'pawel.r.walczuk@gmail.com' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_email_address'
+
+2018-11-15 20:42:33 - [MESSAGE][PASSED] - Text 'pawel.r.walczuk@gmail.com' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_email_address'
+
+2018-11-15 20:42:33 - [TEST_STEP][PASSED] - setText: Text 'admin#123' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_password'
+
+2018-11-15 20:42:33 - [MESSAGE][PASSED] - Text 'admin#123' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_password'
+
+2018-11-15 20:42:33 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-15 20:42:33 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-15 20:42:33 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-15 20:42:36 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-15 20:42:36 - [TEST_STEP][PASSED] - setText: Text 'Painting123' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_title'
+
+2018-11-15 20:42:37 - [MESSAGE][PASSED] - Text 'Painting123' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_title'
+
+2018-11-15 20:42:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '84' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Please SelectAssemblyCr'  using regular expression
+
+2018-11-15 20:42:37 - [MESSAGE][PASSED] - All options with value '84' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Please SelectAssemblyCr'  using regular expression
+
+2018-11-15 20:42:37 - [TEST_STEP][PASSED] - setText: Text 'paint' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-15 20:42:37 - [MESSAGE][PASSED] - Text 'paint' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-15 20:42:37 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 350
+
+2018-11-15 20:42:37 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 350
+
+2018-11-15 20:42:37 - [TEST_STEP][PASSED] - setText: Text '$1,800 for the painting of 4 rooms. One which had two decorative finishes.' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/textarea_description'
+
+2018-11-15 20:42:38 - [MESSAGE][PASSED] - Text '$1,800 for the painting of 4 rooms. One which had two decorative finishes.' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/textarea_description'
+
+2018-11-15 20:42:38 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_price'
+
+2018-11-15 20:42:38 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_price'
+
+2018-11-15 20:42:38 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 350
+
+2018-11-15 20:42:38 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 350
+
+2018-11-15 20:42:38 - [TEST_STEP][PASSED] - setText: Text 'Paint and materials were $200' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/textarea_description_material'
+
+2018-11-15 20:42:38 - [MESSAGE][PASSED] - Text 'Paint and materials were $200' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/textarea_description_material'
+
+2018-11-15 20:42:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Miles willing to travel'  using regular expression
+
+2018-11-15 20:42:39 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Miles willing to travel'  using regular expression
+
+2018-11-15 20:42:39 - [TEST_STEP][PASSED] - setText: Text 'kolkata' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_where_located'
+
+2018-11-15 20:42:39 - [MESSAGE][PASSED] - Text 'kolkata' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_where_located'
+
+2018-11-15 20:42:39 - [TEST_STEP][FAILED] - setText: Unable to set text '1' of object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' located by 'By.xpath: //input[@id = 'manyhours' and @name = 'how_many_hours' and @type = 'text']' not found)
+
+2018-11-15 20:43:15 - [MESSAGE][FAILED] - Unable to set text '1' of object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' located by 'By.xpath: //input[@id = 'manyhours' and @name = 'how_many_hours' and @type = 'text']' not found)
+[[ATTACHMENT|C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\Add Listing\\20181115_204024\\1542294795144.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-15 20:42:18 - [TEST_CASE][FAILED] - Test Cases/AddListingWithExcel: Test Cases/AddListingWithExcel FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' located by 'By.xpath: //input[@id = 'manyhours' and @name = 'how_many_hours' and @type = 'text']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:936)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1532079838120.run(Script1532079838120.groovy:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542294624443.run(TempTestSuite1542294624443.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 20:42:17 - [TEST_SUITE][FAILED] - Add Listing: Test Cases/AddListingWithExcel FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' located by 'By.xpath: //input[@id = 'manyhours' and @name = 'how_many_hours' and @type = 'text']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:936)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1532079838120.run(Script1532079838120.groovy:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542294624443.run(TempTestSuite1542294624443.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-15 20:42:17 - [TEST_SUITE][FAILED] - Add Listing: Test Cases/AddListingWithExcel FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours' located by 'By.xpath: //input[@id = 'manyhours' and @name = 'how_many_hours' and @type = 'text']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:936)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1532079838120.run(Script1532079838120.groovy:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542294624443.run(TempTestSuite1542294624443.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

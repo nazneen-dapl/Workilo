@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Listing" time="65" tests="1" failures="0" errors="0">
+   <testsuite name="Edit Listing" tests="1" failures="0" errors="0" time="65" timestamp="2018-11-19 19:23:55" hostname="Asset-192 - WINCTRL-I1MBNJ3" id="Test Suites/Edit Listing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\Edit Listing\\20181119_192352"/>
+         <property name="logFiles" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\Edit Listing\\20181119_192352\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asset-192 - WINCTRL-I1MBNJ3"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="c8f250510bf5a51dc086ce5ab668d9a4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Edit Listing" classname="Test Cases/Edit Listing" status="PASSED">
+         <system-out><![CDATA[2018-11-19 19:23:56 - [TEST_CASE][PASSED] - Test Cases/Edit Listing: Test Cases/Edit Listing
+
+2018-11-19 19:23:57 - [TEST_STEP][PASSED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(Edit_listing).getRowNumbers(), (row++)]): Browser is closed
+
+2018-11-19 19:23:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-19 19:24:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-19 19:24:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-19 19:24:45 - [MESSAGE][PASSED] - Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-19 19:24:45 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-19 19:24:46 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-19 19:24:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/a_Log In' is clicked on
+
+2018-11-19 19:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/a_Log In' is clicked on
+
+2018-11-19 19:24:47 - [TEST_STEP][PASSED] - setText: Text 'pawel.r.walczuk@gmail.com' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_email_address'
+
+2018-11-19 19:24:48 - [MESSAGE][PASSED] - Text 'pawel.r.walczuk@gmail.com' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_email_address'
+
+2018-11-19 19:24:48 - [TEST_STEP][PASSED] - setText: Text 'admin#123' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_password'
+
+2018-11-19 19:24:48 - [MESSAGE][PASSED] - Text 'admin#123' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_password'
+
+2018-11-19 19:24:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/input_button' is clicked on
+
+2018-11-19 19:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/input_button' is clicked on
+
+2018-11-19 19:24:49 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Edit Listing/Edit Button' successfully
+
+2018-11-19 19:24:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Edit Listing/Edit Button' successfully
+
+2018-11-19 19:24:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit Listing/Edit Button' is clicked on
+
+2018-11-19 19:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit Listing/Edit Button' is clicked on
+
+2018-11-19 19:24:54 - [TEST_STEP][PASSED] - setText: Text 'Painting12345' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_title'
+
+2018-11-19 19:24:54 - [MESSAGE][PASSED] - Text 'Painting12345' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_title'
+
+2018-11-19 19:24:54 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '82' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Please SelectAssemblyCr'  using regular expression
+
+2018-11-19 19:24:54 - [MESSAGE][PASSED] - All options with value '82' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Please SelectAssemblyCr'  using regular expression
+
+2018-11-19 19:24:54 - [TEST_STEP][PASSED] - Statement - removeTags = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell), 5): Object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell' is visible
+
+2018-11-19 19:24:55 - [MESSAGE][PASSED] - Object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell' is visible
+
+2018-11-19 19:24:55 - [TEST_STEP][PASSED] - Statement - If (removeTags == true): clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 19:24:55 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 19:24:55 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 19:24:55 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-11-19 19:24:55 - [MESSAGE][PASSED] - Alert accepted
+
+2018-11-19 19:24:55 - [TEST_STEP][PASSED] - setText: Text 'paintnnnnn' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 19:24:55 - [MESSAGE][PASSED] - Text 'paintnnnnn' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 19:24:55 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 19:24:55 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 19:24:55 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 350
+
+2018-11-19 19:24:55 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 350
+
+2018-11-19 19:24:55 - [TEST_STEP][PASSED] - setText: Text '$1,800 for the painting of 4 rooms. One which had two decorative finishes and pick.....' is set on object 'Object Repository/Edit Listing/Edit text area'
+
+2018-11-19 19:24:56 - [MESSAGE][PASSED] - Text '$1,800 for the painting of 4 rooms. One which had two decorative finishes and pick.....' is set on object 'Object Repository/Edit Listing/Edit text area'
+
+2018-11-19 19:24:56 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_price'
+
+2018-11-19 19:24:56 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_price'
+
+2018-11-19 19:24:56 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Edit Listing/Material provided in the price' successfully
+
+2018-11-19 19:24:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Edit Listing/Material provided in the price' successfully
+
+2018-11-19 19:24:56 - [TEST_STEP][PASSED] - setText: Text 'Paint and materials were $200 and pick......' is set on object 'Object Repository/Edit Listing/Material provided in the price'
+
+2018-11-19 19:24:56 - [MESSAGE][PASSED] - Text 'Paint and materials were $200 and pick......' is set on object 'Object Repository/Edit Listing/Material provided in the price'
+
+2018-11-19 19:24:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Miles willing to travel'  using regular expression
+
+2018-11-19 19:24:57 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Miles willing to travel'  using regular expression
+
+2018-11-19 19:24:57 - [TEST_STEP][PASSED] - setText: Text 'kolkata1' is set on object 'Object Repository/Edit Listing/location enter'
+
+2018-11-19 19:24:58 - [MESSAGE][PASSED] - Text 'kolkata1' is set on object 'Object Repository/Edit Listing/location enter'
+
+2018-11-19 19:24:58 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Edit Listing/hours of completeion'
+
+2018-11-19 19:24:58 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Edit Listing/hours of completeion'
+
+2018-11-19 19:24:58 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 1000
+
+2018-11-19 19:24:58 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 1000
+
+2018-11-19 19:24:58 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Edit Listing/save' is visible
+
+2018-11-19 19:24:58 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Listing/save' is visible
+
+2018-11-19 19:24:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Edit Listing/save' is visible
+
+2018-11-19 19:24:58 - [MESSAGE][PASSED] - Object 'Object Repository/Edit Listing/save' is visible
+
+2018-11-19 19:24:58 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Edit Listing/save' successfully
+
+2018-11-19 19:24:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Edit Listing/save' successfully
+
+2018-11-19 19:24:58 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 19:24:59 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 19:24:59 - [TEST_STEP][PASSED] - Statement - Try: Finding Test Object with id 'Object Repository/Add Listing/Page_Workilo  Service Provider Dash/duplicateEntry'
+
+2018-11-19 19:24:59 - [TEST_STEP][PASSED] - Statement - errMsg1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Add Listing/Page_Workilo  Service Provider Dash/duplicateEntry), 5): Finding Test Object with id 'Object Repository/Add Listing/Page_Workilo  Service Provider Dash/duplicateEntry'
+
+2018-11-19 19:24:59 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-19 19:24:59 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-19 19:25:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-19 19:23:55 - [TEST_SUITE][PASSED] - Edit Listing: Test Cases/Edit Listing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

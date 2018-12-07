@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sign IN" time="31" tests="1" failures="0" errors="0">
+   <testsuite name="Sign IN" tests="1" failures="0" errors="0" time="31" timestamp="2018-11-15 20:41:25" hostname="Asset-192 - WINCTRL-I1MBNJ3" id="Test Suites/Sign IN">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\Sign IN\\20181115_204024"/>
+         <property name="logFiles" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\Sign IN\\20181115_204024\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asset-192 - WINCTRL-I1MBNJ3"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="1f1725947d0216d84da8542f2eb028f1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/SignInWithExcel" classname="Test Cases/SignInWithExcel" status="PASSED">
+         <system-out><![CDATA[2018-11-15 20:41:25 - [TEST_CASE][PASSED] - Test Cases/SignInWithExcel: Test Cases/SignInWithExcel
+
+2018-11-15 20:41:26 - [TEST_STEP][PASSED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(SystemLogin).getRowNumbers(), (row++)]): Browser is closed
+
+2018-11-15 20:41:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-15 20:41:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-15 20:41:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-15 20:41:40 - [MESSAGE][PASSED] - Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-15 20:41:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-15 20:41:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-15 20:41:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/a_Log In' is clicked on
+
+2018-11-15 20:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/a_Log In' is clicked on
+
+2018-11-15 20:41:41 - [TEST_STEP][PASSED] - setText: Text 'nazneenfatma60@gmail.com' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_email_address'
+
+2018-11-15 20:41:42 - [MESSAGE][PASSED] - Text 'nazneenfatma60@gmail.com' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_email_address'
+
+2018-11-15 20:41:42 - [TEST_STEP][PASSED] - setText: Text 'admin#123' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_password'
+
+2018-11-15 20:41:42 - [MESSAGE][PASSED] - Text 'admin#123' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_password'
+
+2018-11-15 20:41:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/input_button' is clicked on
+
+2018-11-15 20:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/input_button' is clicked on
+
+2018-11-15 20:41:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-15 20:41:43 - [MESSAGE][PASSED] - Browser is closed
+
+2018-11-15 20:41:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-15 20:41:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-15 20:41:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-15 20:41:53 - [MESSAGE][PASSED] - Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-15 20:41:53 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-15 20:41:54 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-15 20:41:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/a_Log In' is clicked on
+
+2018-11-15 20:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/a_Log In' is clicked on
+
+2018-11-15 20:41:55 - [TEST_STEP][PASSED] - setText: Text 'pawel.r.walczuk@gmail.com' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_email_address'
+
+2018-11-15 20:41:55 - [MESSAGE][PASSED] - Text 'pawel.r.walczuk@gmail.com' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_email_address'
+
+2018-11-15 20:41:55 - [TEST_STEP][PASSED] - setText: Text 'admin#123' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_password'
+
+2018-11-15 20:41:55 - [MESSAGE][PASSED] - Text 'admin#123' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_password'
+
+2018-11-15 20:41:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/input_button' is clicked on
+
+2018-11-15 20:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/input_button' is clicked on
+
+2018-11-15 20:41:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-15 20:41:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 20:41:25 - [TEST_SUITE][PASSED] - Sign IN: Test Cases/SignInWithExcel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

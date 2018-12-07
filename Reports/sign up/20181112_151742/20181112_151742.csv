@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+sign up,Chrome 70.0.3538.77,,2018-11-12 15:17:45,2018-11-12 15:20:05,2m - 19.683s,PASSED
+,,,,,,
+Test Cases/Sign-Up for Customer,Chrome 70.0.3538.77,,2018-11-12 15:17:46,2018-11-12 15:20:05,2m - 18.869s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(signup_customer).getRowNumbers(), (row++)])",Chrome 70.0.3538.77,,2018-11-12 15:17:47,2018-11-12 15:20:05,2m - 18.325s,PASSED

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+sign up,Chrome 70.0.3538.102,,2018-11-21 16:10:47,2018-11-21 16:11:33,46.640s,PASSED
+,,,,,,
+Test Cases/Sign-Up for Customer with Valid Inputs,Chrome 70.0.3538.102,,2018-11-21 16:10:47,2018-11-21 16:11:09,21.376s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(signup_customer).getRowNumbers(), (row++)])",Chrome 70.0.3538.102,,2018-11-21 16:10:48,2018-11-21 16:11:09,20.842s,PASSED
+,,,,,,
+Test Cases/Sign up for service provider,Chrome 70.0.3538.102,,2018-11-21 16:11:09,2018-11-21 16:11:33,24.546s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(signup_customer).getRowNumbers(), (row++)])",Chrome 70.0.3538.102,,2018-11-21 16:11:09,2018-11-21 16:11:33,23.719s,PASSED

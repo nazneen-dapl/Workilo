@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Listing with Invalid Inputs</description>
+   <name>Add Listing with Invalid Inputs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abcd4ac2-c825-4f35-ba9f-81a1e619b256</testCaseGuid>
+</TestCaseEntity>

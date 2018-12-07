@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add Listing" time="78" tests="2" failures="0" errors="0">
+   <testsuite name="Add Listing" tests="2" failures="0" errors="0" time="78" timestamp="2018-11-19 15:02:24" hostname="Asset-192 - WINCTRL-I1MBNJ3" id="Test Suites/Add Listing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\Add Listing\\20181119_145924"/>
+         <property name="logFiles" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\Add Listing\\20181119_145924\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\Add Listing\\20181119_145924\\Booking.png"/>
+         <property name="hostName" value="Asset-192 - WINCTRL-I1MBNJ3"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="f1d4afa4d80087e7500beb14eb6759b9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/AddListingWithExcel" classname="Test Cases/AddListingWithExcel" status="PASSED">
+         <system-out><![CDATA[2018-11-19 15:02:25 - [TEST_CASE][PASSED] - Test Cases/AddListingWithExcel: Test Cases/AddListingWithExcel
+
+2018-11-19 15:02:26 - [TEST_STEP][PASSED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(Read data for Add listing).getRowNumbers(), (row++)]): Browser is closed
+
+2018-11-19 15:02:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-19 15:02:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-19 15:02:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-19 15:02:44 - [MESSAGE][PASSED] - Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-19 15:02:44 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-19 15:02:45 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-19 15:02:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/a_Log In' is clicked on
+
+2018-11-19 15:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Add Listing/Page_Workilo  Welcome/a_Log In' is clicked on
+
+2018-11-19 15:02:45 - [TEST_STEP][PASSED] - setText: Text 'pawel.r.walczuk@gmail.com' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_email_address'
+
+2018-11-19 15:02:46 - [MESSAGE][PASSED] - Text 'pawel.r.walczuk@gmail.com' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_email_address'
+
+2018-11-19 15:02:46 - [TEST_STEP][PASSED] - setText: Text 'admin#123' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_password'
+
+2018-11-19 15:02:46 - [MESSAGE][PASSED] - Text 'admin#123' is set on object 'Object Repository/Add Listing/Page_Workilo  Welcome/input_password'
+
+2018-11-19 15:02:46 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 15:02:46 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 15:02:46 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 15:02:50 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 15:02:50 - [TEST_STEP][PASSED] - setText: Text 'Painting123' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_title'
+
+2018-11-19 15:02:51 - [MESSAGE][PASSED] - Text 'Painting123' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_title'
+
+2018-11-19 15:02:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '84' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Please SelectAssemblyCr'  using regular expression
+
+2018-11-19 15:02:51 - [MESSAGE][PASSED] - All options with value '84' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Please SelectAssemblyCr'  using regular expression
+
+2018-11-19 15:02:51 - [TEST_STEP][PASSED] - setText: Text 'paint' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 15:02:51 - [MESSAGE][PASSED] - Text 'paint' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 15:02:51 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 350
+
+2018-11-19 15:02:51 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 350
+
+2018-11-19 15:02:51 - [TEST_STEP][PASSED] - setText: Text '$1,800 for the painting of 4 rooms. One which had two decorative finishes.' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/textarea_description'
+
+2018-11-19 15:02:52 - [MESSAGE][PASSED] - Text '$1,800 for the painting of 4 rooms. One which had two decorative finishes.' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/textarea_description'
+
+2018-11-19 15:02:52 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_price'
+
+2018-11-19 15:02:52 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_price'
+
+2018-11-19 15:02:52 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 350
+
+2018-11-19 15:02:52 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 350
+
+2018-11-19 15:02:52 - [TEST_STEP][PASSED] - setText: Text 'Paint and materials were $200' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/textarea_description_material'
+
+2018-11-19 15:02:52 - [MESSAGE][PASSED] - Text 'Paint and materials were $200' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/textarea_description_material'
+
+2018-11-19 15:02:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Miles willing to travel'  using regular expression
+
+2018-11-19 15:02:52 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Miles willing to travel'  using regular expression
+
+2018-11-19 15:02:52 - [TEST_STEP][PASSED] - setText: Text 'kolkata' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_where_located'
+
+2018-11-19 15:02:53 - [MESSAGE][PASSED] - Text 'kolkata' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_where_located'
+
+2018-11-19 15:02:53 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours'
+
+2018-11-19 15:02:53 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours'
+
+2018-11-19 15:02:53 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 1000
+
+2018-11-19 15:02:53 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 1000
+
+2018-11-19 15:02:53 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\Asset-192\Desktop\sample images\br.jpg' sent to object: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_image-upload1'
+
+2018-11-19 15:02:53 - [MESSAGE][PASSED] - File 'C:\Users\Asset-192\Desktop\sample images\br.jpg' sent to object: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_image-upload1'
+
+2018-11-19 15:02:53 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Add Listing/Page_Workilo  Create Listing/save' is visible
+
+2018-11-19 15:02:53 - [MESSAGE][PASSED] - Object 'Object Repository/Add Listing/Page_Workilo  Create Listing/save' is visible
+
+2018-11-19 15:02:53 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Add Listing/Page_Workilo  Create Listing/save' is visible
+
+2018-11-19 15:02:53 - [MESSAGE][PASSED] - Object 'Object Repository/Add Listing/Page_Workilo  Create Listing/save' is visible
+
+2018-11-19 15:02:53 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Add Listing/Page_Workilo  Create Listing/save' successfully
+
+2018-11-19 15:02:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Add Listing/Page_Workilo  Create Listing/save' successfully
+
+2018-11-19 15:02:53 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 15:02:58 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 15:02:58 - [TEST_STEP][PASSED] - Statement - Try: Finding Test Object with id 'Object Repository/Add Listing/Page_Workilo  Service Provider Dash/duplicateEntry'
+
+2018-11-19 15:02:58 - [TEST_STEP][PASSED] - Statement - errMsg1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Add Listing/Page_Workilo  Service Provider Dash/duplicateEntry), 5): Finding Test Object with id 'Object Repository/Add Listing/Page_Workilo  Service Provider Dash/duplicateEntry'
+
+2018-11-19 15:02:58 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-19 15:02:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-19 15:02:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking Services for Customer" classname="Test Cases/Booking Services for Customer" status="PASSED">
+         <system-out><![CDATA[2018-11-19 15:02:59 - [TEST_CASE][PASSED] - Test Cases/Booking Services for Customer: Test Cases/Booking Services for Customer
+
+2018-11-19 15:03:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-19 15:03:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-19 15:03:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-19 15:03:20 - [MESSAGE][PASSED] - Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-19 15:03:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-19 15:03:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-19 15:03:22 - [TEST_STEP][PASSED] - setText: Text 'painting123' is set on object 'Object Repository/Booking Services/input_search_keyword'
+
+2018-11-19 15:03:22 - [MESSAGE][PASSED] - Text 'painting123' is set on object 'Object Repository/Booking Services/input_search_keyword'
+
+2018-11-19 15:03:22 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 15:03:27 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 15:03:27 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 400
+
+2018-11-19 15:03:27 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 400
+
+2018-11-19 15:03:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Booking Services/p_Painting1' is visible
+
+2018-11-19 15:03:27 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Services/p_Painting1' is visible
+
+2018-11-19 15:03:27 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 15:03:31 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 15:03:31 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 450
+
+2018-11-19 15:03:31 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 450
+
+2018-11-19 15:03:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Booking Services/a_book now' is clicked on
+
+2018-11-19 15:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Services/a_book now' is clicked on
+
+2018-11-19 15:03:31 - [TEST_STEP][PASSED] - setText: Text 'nazneenfatma60@gmail.com' is set on object 'Object Repository/Booking Services/input_email_address'
+
+2018-11-19 15:03:31 - [MESSAGE][PASSED] - Text 'nazneenfatma60@gmail.com' is set on object 'Object Repository/Booking Services/input_email_address'
+
+2018-11-19 15:03:31 - [TEST_STEP][PASSED] - setText: Text 'admin#123' is set on object 'Object Repository/Booking Services/input_password'
+
+2018-11-19 15:03:31 - [MESSAGE][PASSED] - Text 'admin#123' is set on object 'Object Repository/Booking Services/input_password'
+
+2018-11-19 15:03:31 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Booking Services/input_button' is visible
+
+2018-11-19 15:03:32 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Services/input_button' is visible
+
+2018-11-19 15:03:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Booking Services/input_button' is clicked on
+
+2018-11-19 15:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Services/input_button' is clicked on
+
+2018-11-19 15:03:32 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Booking Services/a_Want to add time' is clickable
+
+2018-11-19 15:03:32 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Services/a_Want to add time' is clickable
+
+2018-11-19 15:03:32 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-19 15:03:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\Add Listing\\20181119_145924\\Booking.png]]
+
+2018-11-19 15:03:36 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Booking Services/a_Want to add time' is clickable
+
+2018-11-19 15:03:36 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Services/a_Want to add time' is clickable
+
+2018-11-19 15:03:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Booking Services/a_next step' is clicked on
+
+2018-11-19 15:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Services/a_next step' is clicked on
+
+2018-11-19 15:03:36 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Booking Services/input_billing_address1' is visible
+
+2018-11-19 15:03:37 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Services/input_billing_address1' is visible
+
+2018-11-19 15:03:37 - [TEST_STEP][PASSED] - setText: Text 'sdff' is set on object 'Object Repository/Booking Services/input_billing_address1'
+
+2018-11-19 15:03:38 - [MESSAGE][PASSED] - Text 'sdff' is set on object 'Object Repository/Booking Services/input_billing_address1'
+
+2018-11-19 15:03:38 - [TEST_STEP][PASSED] - setText: Text 'sdfdsf' is set on object 'Object Repository/Booking Services/input_billing_city'
+
+2018-11-19 15:03:38 - [MESSAGE][PASSED] - Text 'sdfdsf' is set on object 'Object Repository/Booking Services/input_billing_city'
+
+2018-11-19 15:03:38 - [TEST_STEP][PASSED] - setText: Text 'CAsdf' is set on object 'Object Repository/Booking Services/input_billing_state'
+
+2018-11-19 15:03:38 - [MESSAGE][PASSED] - Text 'CAsdf' is set on object 'Object Repository/Booking Services/input_billing_state'
+
+2018-11-19 15:03:38 - [TEST_STEP][PASSED] - setText: Text '4354646' is set on object 'Object Repository/Booking Services/input_billing_zip'
+
+2018-11-19 15:03:38 - [MESSAGE][PASSED] - Text '4354646' is set on object 'Object Repository/Booking Services/input_billing_zip'
+
+2018-11-19 15:03:38 - [TEST_STEP][PASSED] - setText: Text 'dfvdffgd' is set on object 'Object Repository/Booking By recording/textarea'
+
+2018-11-19 15:03:38 - [MESSAGE][PASSED] - Text 'dfvdffgd' is set on object 'Object Repository/Booking By recording/textarea'
+
+2018-11-19 15:03:38 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Booking Services/Next Button for Step-2' successfully
+
+2018-11-19 15:03:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Booking Services/Next Button for Step-2' successfully
+
+2018-11-19 15:03:38 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Booking Services/Next Button for Step-2' is focused
+
+2018-11-19 15:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Services/Next Button for Step-2' is focused
+
+2018-11-19 15:03:38 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Booking Services/Next Button for Step-2' is clickable
+
+2018-11-19 15:03:39 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Services/Next Button for Step-2' is clickable
+
+2018-11-19 15:03:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Booking Services/Next Button for Step-2' is clicked on
+
+2018-11-19 15:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Services/Next Button for Step-2' is clicked on
+
+2018-11-19 15:03:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Booking Services/input_billing_first_name' is present
+
+2018-11-19 15:03:39 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Services/input_billing_first_name' is present
+
+2018-11-19 15:03:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Booking Services/input_billing_last_name' is present
+
+2018-11-19 15:03:39 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Services/input_billing_last_name' is present
+
+2018-11-19 15:03:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Booking Services/input_billing_phone' is present
+
+2018-11-19 15:03:39 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Services/input_billing_phone' is present
+
+2018-11-19 15:03:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Booking Services/input_billing_email' is present
+
+2018-11-19 15:03:39 - [MESSAGE][PASSED] - Object 'Object Repository/Booking Services/input_billing_email' is present
+
+2018-11-19 15:03:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Booking Services/Next Button Step-3' is clicked on
+
+2018-11-19 15:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Services/Next Button Step-3' is clicked on
+
+2018-11-19 15:03:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Booking Services/Page_Workilo  List Detail page/span_checkout' is clicked on
+
+2018-11-19 15:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Services/Page_Workilo  List Detail page/span_checkout' is clicked on
+
+2018-11-19 15:03:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Booking Services/change card details' is clicked on
+
+2018-11-19 15:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Services/change card details' is clicked on
+
+2018-11-19 15:03:40 - [TEST_STEP][PASSED] - setText: Text '4563310021976554' is set on object 'Object Repository/Booking Services/Page_Workilo  List Detail page/input_card_number'
+
+2018-11-19 15:03:41 - [MESSAGE][PASSED] - Text '4563310021976554' is set on object 'Object Repository/Booking Services/Page_Workilo  List Detail page/input_card_number'
+
+2018-11-19 15:03:41 - [TEST_STEP][PASSED] - setText: Text '01' is set on object 'Object Repository/Booking Services/Page_Workilo  List Detail page/input_month'
+
+2018-11-19 15:03:41 - [MESSAGE][PASSED] - Text '01' is set on object 'Object Repository/Booking Services/Page_Workilo  List Detail page/input_month'
+
+2018-11-19 15:03:41 - [TEST_STEP][PASSED] - setText: Text '19' is set on object 'Object Repository/Booking Services/Page_Workilo  List Detail page/input_year'
+
+2018-11-19 15:03:41 - [MESSAGE][PASSED] - Text '19' is set on object 'Object Repository/Booking Services/Page_Workilo  List Detail page/input_year'
+
+2018-11-19 15:03:41 - [TEST_STEP][PASSED] - setText: Text 'Pawel WalcZuk' is set on object 'Object Repository/Booking Services/Page_Workilo  List Detail page/input_cardholder_name'
+
+2018-11-19 15:03:41 - [MESSAGE][PASSED] - Text 'Pawel WalcZuk' is set on object 'Object Repository/Booking Services/Page_Workilo  List Detail page/input_cardholder_name'
+
+2018-11-19 15:03:41 - [TEST_STEP][PASSED] - setText: Text '827' is set on object 'Object Repository/Booking Services/Page_Workilo  List Detail page/input_cvc'
+
+2018-11-19 15:03:41 - [MESSAGE][PASSED] - Text '827' is set on object 'Object Repository/Booking Services/Page_Workilo  List Detail page/input_cvc'
+
+2018-11-19 15:03:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Booking Services/Book now button' is clicked on
+
+2018-11-19 15:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Booking Services/Book now button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-19 15:02:24 - [TEST_SUITE][PASSED] - Add Listing: Test Cases/Booking Services for Customer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

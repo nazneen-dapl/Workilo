@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="sign up" time="139" tests="1" failures="0" errors="0">
+   <testsuite name="sign up" tests="1" failures="0" errors="0" time="139" timestamp="2018-11-12 15:17:45" hostname="Asset-192 - WINCTRL-I1MBNJ3" id="Test Suites/sign up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo-Automation-Site-Testing\\Reports\\sign up\\20181112_151742"/>
+         <property name="logFiles" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo-Automation-Site-Testing\\Reports\\sign up\\20181112_151742\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asset-192 - WINCTRL-I1MBNJ3"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="dee9ceb0c58b67c1807aa162b96760ea"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Sign-Up for Customer" classname="Test Cases/Sign-Up for Customer" status="PASSED">
+         <system-out><![CDATA[2018-11-12 15:17:46 - [TEST_CASE][PASSED] - Test Cases/Sign-Up for Customer: Test Cases/Sign-Up for Customer
+
+2018-11-12 15:17:47 - [TEST_STEP][PASSED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(signup_customer).getRowNumbers(), (row++)]): Browser is closed
+
+2018-11-12 15:17:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-12 15:17:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 15:17:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-12 15:18:27 - [MESSAGE][PASSED] - Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-12 15:18:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-12 15:18:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-12 15:18:28 - [TEST_STEP][PASSED] - verifyCheckpoint: Checkpoint data and Source data are matched
+
+2018-11-12 15:18:28 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+2018-11-12 15:18:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Signup_Customer/signup_menu' is visible
+
+2018-11-12 15:18:28 - [MESSAGE][PASSED] - Object 'Object Repository/Signup_Customer/signup_menu' is visible
+
+2018-11-12 15:18:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Signup_Customer/signup_menu' is clicked on
+
+2018-11-12 15:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Signup_Customer/signup_menu' is clicked on
+
+2018-11-12 15:18:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Signup_Customer/customer_menu' is clicked on
+
+2018-11-12 15:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Signup_Customer/customer_menu' is clicked on
+
+2018-11-12 15:18:29 - [TEST_STEP][PASSED] - setText: Text 'ddfgsdfgdfg' is set on object 'Object Repository/Signup_Customer/email'
+
+2018-11-12 15:18:29 - [MESSAGE][PASSED] - Text 'ddfgsdfgdfg' is set on object 'Object Repository/Signup_Customer/email'
+
+2018-11-12 15:18:29 - [TEST_STEP][PASSED] - setText: Text 'dfgd' is set on object 'Object Repository/Signup_Customer/first name'
+
+2018-11-12 15:18:30 - [MESSAGE][PASSED] - Text 'dfgd' is set on object 'Object Repository/Signup_Customer/first name'
+
+2018-11-12 15:18:30 - [TEST_STEP][PASSED] - setText: Text 'dfgdfg' is set on object 'Object Repository/Signup_Customer/Last Name'
+
+2018-11-12 15:18:30 - [MESSAGE][PASSED] - Text 'dfgdfg' is set on object 'Object Repository/Signup_Customer/Last Name'
+
+2018-11-12 15:18:30 - [TEST_STEP][PASSED] - setText: Text 'dfgdfg' is set on object 'Object Repository/Signup_Customer/Password'
+
+2018-11-12 15:18:30 - [MESSAGE][PASSED] - Text 'dfgdfg' is set on object 'Object Repository/Signup_Customer/Password'
+
+2018-11-12 15:18:30 - [TEST_STEP][PASSED] - setText: Text 'ertetetet' is set on object 'Object Repository/Signup_Customer/Contact NO'
+
+2018-11-12 15:18:30 - [MESSAGE][PASSED] - Text 'ertetetet' is set on object 'Object Repository/Signup_Customer/Contact NO'
+
+2018-11-12 15:18:30 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_Workilo  Welcome/input_button (1)' successfully
+
+2018-11-12 15:18:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Workilo  Welcome/input_button (1)' successfully
+
+2018-11-12 15:18:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Workilo  Welcome/input_button (1)' is clicked on
+
+2018-11-12 15:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workilo  Welcome/input_button (1)' is clicked on
+
+2018-11-12 15:18:31 - [TEST_STEP][PASSED] - Statement - Try: Finding Test Object with id 'Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.'
+
+2018-11-12 15:18:31 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.), true, OPTIONAL)): Finding Test Object with id 'Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.'
+
+2018-11-12 15:18:31 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-12 15:18:31 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo'
+
+2018-11-12 15:18:31 - [MESSAGE][PASSED] - Current window's title is: 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo'
+
+2018-11-12 15:18:31 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(title, "Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo", false)): null
+
+2018-11-12 15:18:31 - [MESSAGE][PASSED] - Actual text 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo' and expected text 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo' are matched 
+
+2018-11-12 15:18:31 - [TEST_STEP][PASSED] - Statement - println("Welcome to service provider dashboard page"): null
+
+2018-11-12 15:18:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-12 15:18:32 - [MESSAGE][PASSED] - Browser is closed
+
+2018-11-12 15:18:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-12 15:18:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 15:18:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-12 15:18:46 - [MESSAGE][PASSED] - Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-12 15:18:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-12 15:18:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-12 15:18:48 - [TEST_STEP][PASSED] - verifyCheckpoint: Checkpoint data and Source data are matched
+
+2018-11-12 15:18:48 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+2018-11-12 15:18:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Signup_Customer/signup_menu' is visible
+
+2018-11-12 15:18:48 - [MESSAGE][PASSED] - Object 'Object Repository/Signup_Customer/signup_menu' is visible
+
+2018-11-12 15:18:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Signup_Customer/signup_menu' is clicked on
+
+2018-11-12 15:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Signup_Customer/signup_menu' is clicked on
+
+2018-11-12 15:18:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Signup_Customer/customer_menu' is clicked on
+
+2018-11-12 15:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Signup_Customer/customer_menu' is clicked on
+
+2018-11-12 15:18:48 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Signup_Customer/email'
+
+2018-11-12 15:18:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Signup_Customer/email'
+
+2018-11-12 15:18:48 - [TEST_STEP][PASSED] - setText: Text 'naz' is set on object 'Object Repository/Signup_Customer/first name'
+
+2018-11-12 15:18:49 - [MESSAGE][PASSED] - Text 'naz' is set on object 'Object Repository/Signup_Customer/first name'
+
+2018-11-12 15:18:49 - [TEST_STEP][PASSED] - setText: Text 'fat' is set on object 'Object Repository/Signup_Customer/Last Name'
+
+2018-11-12 15:18:49 - [MESSAGE][PASSED] - Text 'fat' is set on object 'Object Repository/Signup_Customer/Last Name'
+
+2018-11-12 15:18:49 - [TEST_STEP][PASSED] - setText: Text 'admin#123' is set on object 'Object Repository/Signup_Customer/Password'
+
+2018-11-12 15:18:49 - [MESSAGE][PASSED] - Text 'admin#123' is set on object 'Object Repository/Signup_Customer/Password'
+
+2018-11-12 15:18:49 - [TEST_STEP][PASSED] - setText: Text '65464988464' is set on object 'Object Repository/Signup_Customer/Contact NO'
+
+2018-11-12 15:18:49 - [MESSAGE][PASSED] - Text '65464988464' is set on object 'Object Repository/Signup_Customer/Contact NO'
+
+2018-11-12 15:18:49 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_Workilo  Welcome/input_button (1)' successfully
+
+2018-11-12 15:18:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Workilo  Welcome/input_button (1)' successfully
+
+2018-11-12 15:18:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Workilo  Welcome/input_button (1)' is clicked on
+
+2018-11-12 15:18:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workilo  Welcome/input_button (1)' is clicked on
+
+2018-11-12 15:18:50 - [TEST_STEP][PASSED] - Statement - Try: Finding Test Object with id 'Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.'
+
+2018-11-12 15:18:50 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.), true, OPTIONAL)): Finding Test Object with id 'Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.'
+
+2018-11-12 15:18:50 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-12 15:18:50 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo'
+
+2018-11-12 15:18:50 - [MESSAGE][PASSED] - Current window's title is: 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo'
+
+2018-11-12 15:18:50 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(title, "Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo", false)): null
+
+2018-11-12 15:18:50 - [MESSAGE][PASSED] - Actual text 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo' and expected text 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo' are matched 
+
+2018-11-12 15:18:50 - [TEST_STEP][PASSED] - Statement - println("Welcome to service provider dashboard page"): null
+
+2018-11-12 15:18:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-12 15:18:50 - [MESSAGE][PASSED] - Browser is closed
+
+2018-11-12 15:18:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-12 15:18:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 15:18:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-12 15:19:06 - [MESSAGE][PASSED] - Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-12 15:19:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-12 15:19:07 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-12 15:19:07 - [TEST_STEP][PASSED] - verifyCheckpoint: Checkpoint data and Source data are matched
+
+2018-11-12 15:19:07 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+2018-11-12 15:19:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Signup_Customer/signup_menu' is visible
+
+2018-11-12 15:19:07 - [MESSAGE][PASSED] - Object 'Object Repository/Signup_Customer/signup_menu' is visible
+
+2018-11-12 15:19:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Signup_Customer/signup_menu' is clicked on
+
+2018-11-12 15:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Signup_Customer/signup_menu' is clicked on
+
+2018-11-12 15:19:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Signup_Customer/customer_menu' is clicked on
+
+2018-11-12 15:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Signup_Customer/customer_menu' is clicked on
+
+2018-11-12 15:19:08 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Signup_Customer/email'
+
+2018-11-12 15:19:08 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Signup_Customer/email'
+
+2018-11-12 15:19:08 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Signup_Customer/first name'
+
+2018-11-12 15:19:08 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Signup_Customer/first name'
+
+2018-11-12 15:19:08 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Signup_Customer/Last Name'
+
+2018-11-12 15:19:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Signup_Customer/Last Name'
+
+2018-11-12 15:19:09 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Signup_Customer/Password'
+
+2018-11-12 15:19:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Signup_Customer/Password'
+
+2018-11-12 15:19:09 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Signup_Customer/Contact NO'
+
+2018-11-12 15:19:09 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Signup_Customer/Contact NO'
+
+2018-11-12 15:19:09 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_Workilo  Welcome/input_button (1)' successfully
+
+2018-11-12 15:19:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Workilo  Welcome/input_button (1)' successfully
+
+2018-11-12 15:19:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Workilo  Welcome/input_button (1)' is clicked on
+
+2018-11-12 15:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workilo  Welcome/input_button (1)' is clicked on
+
+2018-11-12 15:19:09 - [TEST_STEP][PASSED] - Statement - Try: Finding Test Object with id 'Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.'
+
+2018-11-12 15:19:09 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.), true, OPTIONAL)): Finding Test Object with id 'Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.'
+
+2018-11-12 15:19:09 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-12 15:19:09 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo'
+
+2018-11-12 15:19:09 - [MESSAGE][PASSED] - Current window's title is: 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo'
+
+2018-11-12 15:19:09 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(title, "Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo", false)): null
+
+2018-11-12 15:19:09 - [MESSAGE][PASSED] - Actual text 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo' and expected text 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo' are matched 
+
+2018-11-12 15:19:09 - [TEST_STEP][PASSED] - Statement - println("Welcome to service provider dashboard page"): null
+
+2018-11-12 15:19:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-12 15:19:10 - [MESSAGE][PASSED] - Browser is closed
+
+2018-11-12 15:19:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-12 15:19:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 15:19:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-12 15:19:43 - [MESSAGE][PASSED] - Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-12 15:19:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-12 15:19:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-12 15:19:44 - [TEST_STEP][PASSED] - verifyCheckpoint: Checkpoint data and Source data are matched
+
+2018-11-12 15:19:44 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+2018-11-12 15:19:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Signup_Customer/signup_menu' is visible
+
+2018-11-12 15:19:44 - [MESSAGE][PASSED] - Object 'Object Repository/Signup_Customer/signup_menu' is visible
+
+2018-11-12 15:19:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Signup_Customer/signup_menu' is clicked on
+
+2018-11-12 15:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Signup_Customer/signup_menu' is clicked on
+
+2018-11-12 15:19:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Signup_Customer/customer_menu' is clicked on
+
+2018-11-12 15:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Signup_Customer/customer_menu' is clicked on
+
+2018-11-12 15:19:44 - [TEST_STEP][PASSED] - setText: Text 'n1fatma@gmail.com' is set on object 'Object Repository/Signup_Customer/email'
+
+2018-11-12 15:19:45 - [MESSAGE][PASSED] - Text 'n1fatma@gmail.com' is set on object 'Object Repository/Signup_Customer/email'
+
+2018-11-12 15:19:45 - [TEST_STEP][PASSED] - setText: Text 'naz' is set on object 'Object Repository/Signup_Customer/first name'
+
+2018-11-12 15:19:45 - [MESSAGE][PASSED] - Text 'naz' is set on object 'Object Repository/Signup_Customer/first name'
+
+2018-11-12 15:19:45 - [TEST_STEP][PASSED] - setText: Text 'fat' is set on object 'Object Repository/Signup_Customer/Last Name'
+
+2018-11-12 15:19:45 - [MESSAGE][PASSED] - Text 'fat' is set on object 'Object Repository/Signup_Customer/Last Name'
+
+2018-11-12 15:19:45 - [TEST_STEP][PASSED] - setText: Text 'admin#123' is set on object 'Object Repository/Signup_Customer/Password'
+
+2018-11-12 15:19:45 - [MESSAGE][PASSED] - Text 'admin#123' is set on object 'Object Repository/Signup_Customer/Password'
+
+2018-11-12 15:19:45 - [TEST_STEP][PASSED] - setText: Text '65464988464' is set on object 'Object Repository/Signup_Customer/Contact NO'
+
+2018-11-12 15:19:46 - [MESSAGE][PASSED] - Text '65464988464' is set on object 'Object Repository/Signup_Customer/Contact NO'
+
+2018-11-12 15:19:46 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_Workilo  Welcome/input_button (1)' successfully
+
+2018-11-12 15:19:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Workilo  Welcome/input_button (1)' successfully
+
+2018-11-12 15:19:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Workilo  Welcome/input_button (1)' is clicked on
+
+2018-11-12 15:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workilo  Welcome/input_button (1)' is clicked on
+
+2018-11-12 15:19:46 - [TEST_STEP][PASSED] - Statement - Try: Finding Test Object with id 'Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.'
+
+2018-11-12 15:19:46 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.), true, OPTIONAL)): Finding Test Object with id 'Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.'
+
+2018-11-12 15:19:46 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-12 15:19:46 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo'
+
+2018-11-12 15:19:46 - [MESSAGE][PASSED] - Current window's title is: 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo'
+
+2018-11-12 15:19:46 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(title, "Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo", false)): null
+
+2018-11-12 15:19:46 - [MESSAGE][PASSED] - Actual text 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo' and expected text 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo' are matched 
+
+2018-11-12 15:19:46 - [TEST_STEP][PASSED] - Statement - println("Welcome to service provider dashboard page"): null
+
+2018-11-12 15:19:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-12 15:19:47 - [MESSAGE][PASSED] - Browser is closed
+
+2018-11-12 15:19:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-12 15:19:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 15:19:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-12 15:20:01 - [MESSAGE][PASSED] - Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-12 15:20:01 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-12 15:20:02 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-12 15:20:02 - [TEST_STEP][PASSED] - verifyCheckpoint: Checkpoint data and Source data are matched
+
+2018-11-12 15:20:02 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+2018-11-12 15:20:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Signup_Customer/signup_menu' is visible
+
+2018-11-12 15:20:02 - [MESSAGE][PASSED] - Object 'Object Repository/Signup_Customer/signup_menu' is visible
+
+2018-11-12 15:20:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Signup_Customer/signup_menu' is clicked on
+
+2018-11-12 15:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Signup_Customer/signup_menu' is clicked on
+
+2018-11-12 15:20:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Signup_Customer/customer_menu' is clicked on
+
+2018-11-12 15:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Signup_Customer/customer_menu' is clicked on
+
+2018-11-12 15:20:03 - [TEST_STEP][PASSED] - setText: Text 'n1fatma@gmail.com' is set on object 'Object Repository/Signup_Customer/email'
+
+2018-11-12 15:20:03 - [MESSAGE][PASSED] - Text 'n1fatma@gmail.com' is set on object 'Object Repository/Signup_Customer/email'
+
+2018-11-12 15:20:03 - [TEST_STEP][PASSED] - setText: Text 'naz' is set on object 'Object Repository/Signup_Customer/first name'
+
+2018-11-12 15:20:03 - [MESSAGE][PASSED] - Text 'naz' is set on object 'Object Repository/Signup_Customer/first name'
+
+2018-11-12 15:20:03 - [TEST_STEP][PASSED] - setText: Text 'fat' is set on object 'Object Repository/Signup_Customer/Last Name'
+
+2018-11-12 15:20:03 - [MESSAGE][PASSED] - Text 'fat' is set on object 'Object Repository/Signup_Customer/Last Name'
+
+2018-11-12 15:20:03 - [TEST_STEP][PASSED] - setText: Text 'admin#123' is set on object 'Object Repository/Signup_Customer/Password'
+
+2018-11-12 15:20:04 - [MESSAGE][PASSED] - Text 'admin#123' is set on object 'Object Repository/Signup_Customer/Password'
+
+2018-11-12 15:20:04 - [TEST_STEP][PASSED] - setText: Text '65464988465' is set on object 'Object Repository/Signup_Customer/Contact NO'
+
+2018-11-12 15:20:04 - [MESSAGE][PASSED] - Text '65464988465' is set on object 'Object Repository/Signup_Customer/Contact NO'
+
+2018-11-12 15:20:04 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_Workilo  Welcome/input_button (1)' successfully
+
+2018-11-12 15:20:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Workilo  Welcome/input_button (1)' successfully
+
+2018-11-12 15:20:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Workilo  Welcome/input_button (1)' is clicked on
+
+2018-11-12 15:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Workilo  Welcome/input_button (1)' is clicked on
+
+2018-11-12 15:20:04 - [TEST_STEP][PASSED] - Statement - Try: Finding Test Object with id 'Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.'
+
+2018-11-12 15:20:04 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.), true, OPTIONAL)): Finding Test Object with id 'Object Repository/verificationForErrorMessage/signIn/Page_Workilo  Home Improvement And/label_This field is required.'
+
+2018-11-12 15:20:04 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-12 15:20:04 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo'
+
+2018-11-12 15:20:04 - [MESSAGE][PASSED] - Current window's title is: 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo'
+
+2018-11-12 15:20:04 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(title, "Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo", false)): null
+
+2018-11-12 15:20:04 - [MESSAGE][PASSED] - Actual text 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo' and expected text 'Workilo :: Home Improvement And Renovation Services in Brooklyn by Workilo' are matched 
+
+2018-11-12 15:20:04 - [TEST_STEP][PASSED] - Statement - println("Welcome to service provider dashboard page"): null
+
+2018-11-12 15:20:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-12 15:20:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-12 15:17:45 - [TEST_SUITE][PASSED] - sign up: Test Cases/Sign-Up for Customer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

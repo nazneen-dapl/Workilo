@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add Listing,Chrome 70.0.3538.102,Add Listing with valid inputs,2018-11-21 15:42:53,2018-11-21 15:43:53,1m - 0.161s,PASSED
+,,,,,,
+Test Cases/AddListingWithExcel,Chrome 70.0.3538.102,Read input from excel sheets,2018-11-21 15:42:53,2018-11-21 15:43:53,59.543s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(Read data for Add listing).getRowNumbers(), (row++)])",Chrome 70.0.3538.102,,2018-11-21 15:42:54,2018-11-21 15:43:53,58.724s,PASSED

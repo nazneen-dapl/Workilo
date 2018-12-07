@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit Listing,Chrome 70.0.3538.102,Edit Listing,2018-11-21 15:36:34,2018-11-21 15:37:07,33.528s,PASSED
+,,,,,,
+Test Cases/Edit Listing,Chrome 70.0.3538.102,,2018-11-21 15:36:34,2018-11-21 15:37:07,32.891s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(Edit_listing).getRowNumbers(), (row++)])",Chrome 70.0.3538.102,,2018-11-21 15:36:36,2018-11-21 15:37:07,31.817s,PASSED

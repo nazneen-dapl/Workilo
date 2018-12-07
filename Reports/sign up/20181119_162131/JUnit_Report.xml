@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="sign up" time="71" tests="2" failures="0" errors="0">
+   <testsuite name="sign up" tests="2" failures="0" errors="0" time="71" timestamp="2018-11-19 16:21:35" hostname="Asset-192 - WINCTRL-I1MBNJ3" id="Test Suites/sign up">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\sign up\\20181119_162131"/>
+         <property name="logFiles" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\sign up\\20181119_162131\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\sign up\\20181119_162131\\1542624729122.png"/>
+         <property name="hostName" value="Asset-192 - WINCTRL-I1MBNJ3"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.0.110"/>
+         <property name="sessionId" value="6b61fea20845ffd649e273f53a64ead1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Sign-Up for Customer with Valid Inputs" classname="Test Cases/Sign-Up for Customer with Valid Inputs" status="PASSED">
+         <system-out><![CDATA[2018-11-19 16:21:35 - [TEST_CASE][PASSED] - Test Cases/Sign-Up for Customer with Valid Inputs: Test Cases/Sign-Up for Customer with Valid Inputs
+
+2018-11-19 16:21:36 - [TEST_STEP][FAILED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(signup_customer).getRowNumbers(), (row++)]): Browser is closed
+
+2018-11-19 16:21:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-19 16:21:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-19 16:21:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-19 16:21:58 - [MESSAGE][PASSED] - Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-19 16:21:58 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-19 16:22:00 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-19 16:22:00 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 16:22:00 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 16:22:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Signup_Customer/customer_menu' is clicked on
+
+2018-11-19 16:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Signup_Customer/customer_menu' is clicked on
+
+2018-11-19 16:22:00 - [TEST_STEP][PASSED] - setText: Text 'naz2@gmail.com' is set on object 'Object Repository/Signup_Customer/email'
+
+2018-11-19 16:22:01 - [MESSAGE][PASSED] - Text 'naz2@gmail.com' is set on object 'Object Repository/Signup_Customer/email'
+
+2018-11-19 16:22:01 - [TEST_STEP][PASSED] - setText: Text 'naz' is set on object 'Object Repository/Signup_Customer/first name'
+
+2018-11-19 16:22:01 - [MESSAGE][PASSED] - Text 'naz' is set on object 'Object Repository/Signup_Customer/first name'
+
+2018-11-19 16:22:01 - [TEST_STEP][PASSED] - setText: Text 'fat' is set on object 'Object Repository/Signup_Customer/Last Name'
+
+2018-11-19 16:22:01 - [MESSAGE][PASSED] - Text 'fat' is set on object 'Object Repository/Signup_Customer/Last Name'
+
+2018-11-19 16:22:01 - [TEST_STEP][PASSED] - setText: Text 'admin#123' is set on object 'Object Repository/Signup_Customer/Password'
+
+2018-11-19 16:22:02 - [MESSAGE][PASSED] - Text 'admin#123' is set on object 'Object Repository/Signup_Customer/Password'
+
+2018-11-19 16:22:02 - [TEST_STEP][PASSED] - setText: Text '65464988465' is set on object 'Object Repository/Signup_Customer/Contact NO'
+
+2018-11-19 16:22:02 - [MESSAGE][PASSED] - Text '65464988465' is set on object 'Object Repository/Signup_Customer/Contact NO'
+
+2018-11-19 16:22:02 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 16:22:02 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 16:22:02 - [TEST_STEP][FAILED] - Statement - Try: Unable to verify object 'Object Repository/Signup_Customer/DuplicateEmail' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WINCTRL-I1MBNJ3', ip: '192.168.0.110', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\ASSET-~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58115}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 52903382f7879291fb4cb2a31d769961
+*** Element info: {Using=xpath, value=})
+
+2018-11-19 16:22:02 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Signup_Customer/DuplicateEmail' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WINCTRL-I1MBNJ3', ip: '192.168.0.110', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\ASSET-~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58115}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 52903382f7879291fb4cb2a31d769961
+*** Element info: {Using=xpath, value=})
+
+2018-11-19 16:22:10 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Signup_Customer/DuplicateEmail' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WINCTRL-I1MBNJ3', ip: '192.168.0.110', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\ASSET-~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58115}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 52903382f7879291fb4cb2a31d769961
+*** Element info: {Using=xpath, value=})
+[[ATTACHMENT|C:\\Users\\Asset-192\\Katalon Studio\\Workilo\\Reports\\sign up\\20181119_162131\\1542624729122.png]]
+
+2018-11-19 16:22:10 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-19 16:22:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-19 16:22:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sign up for service provider" classname="Test Cases/Sign up for service provider" status="PASSED">
+         <system-out><![CDATA[2018-11-19 16:22:10 - [TEST_CASE][PASSED] - Test Cases/Sign up for service provider: Test Cases/Sign up for service provider
+
+2018-11-19 16:22:11 - [TEST_STEP][PASSED] - Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(signup_customer).getRowNumbers(), (row++)]): Object: 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/Continue button' is clicked on
+
+2018-11-19 16:22:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-19 16:22:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-19 16:22:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-19 16:22:23 - [MESSAGE][PASSED] - Navigate to 'https://www.workilo.com/' successfully
+
+2018-11-19 16:22:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-19 16:22:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-19 16:22:24 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 16:22:24 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 16:22:24 - [TEST_STEP][PASSED] - setText: Text 'naz51@gmail.com' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Welcome/input_email_address'
+
+2018-11-19 16:22:25 - [MESSAGE][PASSED] - Text 'naz51@gmail.com' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Welcome/input_email_address'
+
+2018-11-19 16:22:25 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Welcome/input_first_name'
+
+2018-11-19 16:22:25 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Welcome/input_first_name'
+
+2018-11-19 16:22:25 - [TEST_STEP][PASSED] - setText: Text 'demo' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Welcome/input_last_name'
+
+2018-11-19 16:22:25 - [MESSAGE][PASSED] - Text 'demo' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Welcome/input_last_name'
+
+2018-11-19 16:22:25 - [TEST_STEP][PASSED] - setText: Text 'admin#123' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Welcome/input_new_password'
+
+2018-11-19 16:22:26 - [MESSAGE][PASSED] - Text 'admin#123' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Welcome/input_new_password'
+
+2018-11-19 16:22:26 - [TEST_STEP][PASSED] - setText: Text '90876543' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Welcome/input_contact_number'
+
+2018-11-19 16:22:26 - [MESSAGE][PASSED] - Text '90876543' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Welcome/input_contact_number'
+
+2018-11-19 16:22:26 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 16:22:26 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 16:22:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/Profile Image' is present
+
+2018-11-19 16:22:28 - [MESSAGE][PASSED] - Object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/Profile Image' is present
+
+2018-11-19 16:22:28 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\Asset-192\Desktop\sample images\br.jpg' sent to object: 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/Profile Image'
+
+2018-11-19 16:22:29 - [MESSAGE][PASSED] - File 'C:\Users\Asset-192\Desktop\sample images\br.jpg' sent to object: 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/Profile Image'
+
+2018-11-19 16:22:29 - [TEST_STEP][PASSED] - setText: Text 'naz_store' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/input_shop_name'
+
+2018-11-19 16:22:29 - [MESSAGE][PASSED] - Text 'naz_store' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/input_shop_name'
+
+2018-11-19 16:22:29 - [TEST_STEP][PASSED] - setText: Text '90876543' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/li_Phone Number'
+
+2018-11-19 16:22:29 - [MESSAGE][PASSED] - Text '90876543' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/li_Phone Number'
+
+2018-11-19 16:22:29 - [TEST_STEP][PASSED] - setText: Text 'ghfg' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/input_address'
+
+2018-11-19 16:22:29 - [MESSAGE][PASSED] - Text 'ghfg' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/input_address'
+
+2018-11-19 16:22:29 - [TEST_STEP][PASSED] - setText: Text '4574564' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/input_user_zip'
+
+2018-11-19 16:22:30 - [MESSAGE][PASSED] - Text '4574564' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/input_user_zip'
+
+2018-11-19 16:22:30 - [TEST_STEP][PASSED] - setText: Text 'fdg' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/input_city'
+
+2018-11-19 16:22:30 - [MESSAGE][PASSED] - Text 'fdg' is set on object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/input_city'
+
+2018-11-19 16:22:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1061' are selected in object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/select_AlabamaAlaskaArizonaArk'  using regular expression
+
+2018-11-19 16:22:31 - [MESSAGE][PASSED] - All options with value '1061' are selected in object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/select_AlabamaAlaskaArizonaArk'  using regular expression
+
+2018-11-19 16:22:31 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 16:22:35 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 16:22:35 - [TEST_STEP][PASSED] - setText: Text 'cooking' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_title'
+
+2018-11-19 16:22:35 - [MESSAGE][PASSED] - Text 'cooking' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_title'
+
+2018-11-19 16:22:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '84' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Please SelectAssemblyCr'  using regular expression
+
+2018-11-19 16:22:36 - [MESSAGE][PASSED] - All options with value '84' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Please SelectAssemblyCr'  using regular expression
+
+2018-11-19 16:22:36 - [TEST_STEP][PASSED] - setText: Text '34' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 16:22:36 - [MESSAGE][PASSED] - Text '34' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 16:22:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 16:22:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 16:22:36 - [TEST_STEP][PASSED] - setText: Text 'naz51@gmail.com' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 16:22:36 - [MESSAGE][PASSED] - Text 'naz51@gmail.com' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 16:22:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 16:22:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 16:22:36 - [TEST_STEP][PASSED] - setText: Text 'naz51@gmail.com' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 16:22:37 - [MESSAGE][PASSED] - Text 'naz51@gmail.com' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 16:22:37 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 16:22:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_cell'
+
+2018-11-19 16:22:37 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 350
+
+2018-11-19 16:22:37 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 350
+
+2018-11-19 16:22:37 - [TEST_STEP][PASSED] - setText: Text '34' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/textarea_description'
+
+2018-11-19 16:22:37 - [MESSAGE][PASSED] - Text '34' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/textarea_description'
+
+2018-11-19 16:22:37 - [TEST_STEP][PASSED] - setText: Text '34' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_price'
+
+2018-11-19 16:22:37 - [MESSAGE][PASSED] - Text '34' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_price'
+
+2018-11-19 16:22:37 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 350
+
+2018-11-19 16:22:37 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 350
+
+2018-11-19 16:22:37 - [TEST_STEP][PASSED] - setText: Text 'e' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/textarea_description_material'
+
+2018-11-19 16:22:37 - [MESSAGE][PASSED] - Text 'e' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/textarea_description_material'
+
+2018-11-19 16:22:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Miles willing to travel'  using regular expression
+
+2018-11-19 16:22:38 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Add Listing/Page_Workilo  Create Listing/select_Miles willing to travel'  using regular expression
+
+2018-11-19 16:22:38 - [TEST_STEP][PASSED] - setText: Text 'wee' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_where_located'
+
+2018-11-19 16:22:38 - [MESSAGE][PASSED] - Text 'wee' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_where_located'
+
+2018-11-19 16:22:38 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours'
+
+2018-11-19 16:22:38 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_how_many_hours'
+
+2018-11-19 16:22:38 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 1000
+
+2018-11-19 16:22:38 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 1000
+
+2018-11-19 16:22:38 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\Asset-192\Desktop\sample images\br.jpg' sent to object: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_image-upload1'
+
+2018-11-19 16:22:38 - [MESSAGE][PASSED] - File 'C:\Users\Asset-192\Desktop\sample images\br.jpg' sent to object: 'Object Repository/Add Listing/Page_Workilo  Create Listing/input_image-upload1'
+
+2018-11-19 16:22:38 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Add Listing/Page_Workilo  Create Listing/save' is visible
+
+2018-11-19 16:22:38 - [MESSAGE][PASSED] - Object 'Object Repository/Add Listing/Page_Workilo  Create Listing/save' is visible
+
+2018-11-19 16:22:38 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Add Listing/Page_Workilo  Create Listing/save' is visible
+
+2018-11-19 16:22:38 - [MESSAGE][PASSED] - Object 'Object Repository/Add Listing/Page_Workilo  Create Listing/save' is visible
+
+2018-11-19 16:22:38 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Add Listing/Page_Workilo  Create Listing/save' successfully
+
+2018-11-19 16:22:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Add Listing/Page_Workilo  Create Listing/save' successfully
+
+2018-11-19 16:22:39 - [TEST_STEP][PASSED] - clickEvent.SelectServices.clickUsingJS1: clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 16:22:42 - [MESSAGE][PASSED] - clickEvent.SelectServices.clickUsingJS1 is PASSED
+
+2018-11-19 16:22:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/step3' is present
+
+2018-11-19 16:22:42 - [MESSAGE][PASSED] - Object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/step3' is present
+
+2018-11-19 16:22:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '10' are selected in object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/Open Shop Time' 
+
+2018-11-19 16:22:42 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/Open Shop Time' 
+
+2018-11-19 16:22:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '19' are selected in object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/Close shop time' 
+
+2018-11-19 16:22:42 - [MESSAGE][PASSED] - All options with value '19' are selected in object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/Close shop time' 
+
+2018-11-19 16:22:42 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/openshop' successfully
+
+2018-11-19 16:22:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/openshop' successfully
+
+2018-11-19 16:22:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/openshop' is clicked on
+
+2018-11-19 16:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/openshop' is clicked on
+
+2018-11-19 16:22:44 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/Continue button' successfully
+
+2018-11-19 16:22:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/Continue button' successfully
+
+2018-11-19 16:22:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/Continue button' is clicked on
+
+2018-11-19 16:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Sign up for service provider/Page_Workilo  Shop Setup/Continue button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-19 16:21:35 - [TEST_SUITE][PASSED] - sign up: Test Cases/Sign up for service provider]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

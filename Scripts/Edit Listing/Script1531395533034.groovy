@@ -92,6 +92,12 @@ WebUI.scrollToPosition(0, 1000)
 //WebUI.uploadFile(findTestObject('Object Repository/Add Listing/Page_Workilo  Create Listing/input_image-upload1'), 'C:\\Users\\Asset-192\\Desktop\\sample images\\br.jpg',
 //FailureHandling.STOP_ON_FAILURE)
 
+//Rotate image
+WebUI.click(findTestObject('Object Repository/Edit Listing/rotate image on edit/Rotate image button'))
+CustomKeywords.'clickEvent.SelectServices.clickUsingJS1'(findTestObject('Object Repository/Edit Listing/rotate image on edit/rotate left button'),5)
+CustomKeywords.'clickEvent.SelectServices.clickUsingJS1'(findTestObject('Object Repository/Edit Listing/rotate image on edit/save after rotate button'),5)
+
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/Edit Listing/save'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Edit Listing/save'), 5)

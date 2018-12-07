@@ -15,6 +15,6 @@
       <guid>40f75c68-7bae-4576-ba7f-c3085a2f2fc8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/AddListingWithExcel</testCaseId>
+      <testCaseId>Test Cases/Add Listing/AddListingWithExcel</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

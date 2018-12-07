@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Manage Shop,Chrome 70.0.3538.102,Manage shop,2018-11-21 15:37:29,2018-11-21 15:38:32,1m - 3.191s,PASSED
+,,,,,,
+Test Cases/Update profile Image,Chrome 70.0.3538.102,,2018-11-21 15:37:31,2018-11-21 15:38:32,1m - 1.666s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-21 15:37:32,2018-11-21 15:37:56,23.970s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 15:37:56,2018-11-21 15:37:56,0.300s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-21 15:37:56,2018-11-21 15:37:57,1.152s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 15:37:57,2018-11-21 15:37:58,0.526s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 15:37:58,2018-11-21 15:37:58,0.366s,PASSED
+scrollToElement,Chrome 70.0.3538.102,,2018-11-21 15:37:58,2018-11-21 15:37:58,0.181s,PASSED
+clickEvent.SelectServices.clickUsingJS1,Chrome 70.0.3538.102,,2018-11-21 15:37:58,2018-11-21 15:37:58,0.137s,PASSED
+clickEvent.SelectServices.clickUsingJS1,Chrome 70.0.3538.102,,2018-11-21 15:37:58,2018-11-21 15:37:58,0.098s,PASSED
+clickEvent.SelectServices.clickUsingJS1,Chrome 70.0.3538.102,,2018-11-21 15:37:58,2018-11-21 15:38:07,8.239s,PASSED
+uploadFile,Chrome 70.0.3538.102,,2018-11-21 15:38:07,2018-11-21 15:38:07,0.125s,PASSED
+clickEvent.SelectServices.clickUsingJS1,Chrome 70.0.3538.102,,2018-11-21 15:38:07,2018-11-21 15:38:07,0.080s,PASSED
+clickEvent.SelectServices.clickUsingJS1,Chrome 70.0.3538.102,,2018-11-21 15:38:07,2018-11-21 15:38:31,24.646s,PASSED
+closeBrowser,Chrome 70.0.3538.102,,2018-11-21 15:38:31,2018-11-21 15:38:32,0.715s,PASSED

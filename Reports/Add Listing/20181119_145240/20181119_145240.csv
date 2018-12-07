@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add Listing,Chrome 70.0.3538.102,Add Listing with valid inputs,2018-11-19 14:55:46,2018-11-19 14:56:52,1m - 5.782s,ERROR
+,,,,,,
+Test Cases/AddListingWithExcel,Chrome 70.0.3538.102,Read input from excel sheets,2018-11-19 14:55:46,2018-11-19 14:56:21,34.828s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(Read data for Add listing).getRowNumbers(), (row++)])",Chrome 70.0.3538.102,,2018-11-19 14:55:47,2018-11-19 14:56:21,34.106s,PASSED
+,,,,,,
+Test Cases/Booking Services for Customer,Chrome 70.0.3538.102,,2018-11-19 14:56:21,2018-11-19 14:56:51,29.636s,ERROR
+openBrowser,Chrome 70.0.3538.102,,2018-11-19 14:56:22,2018-11-19 14:56:24,2.604s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-19 14:56:24,2018-11-19 14:56:32,7.611s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-19 14:56:32,2018-11-19 14:56:33,1.139s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-19 14:56:33,2018-11-19 14:56:33,0.252s,PASSED
+clickEvent.SelectServices.clickUsingJS1,Chrome 70.0.3538.102,,2018-11-19 14:56:33,2018-11-19 14:56:40,6.703s,PASSED
+scrollToPosition,Chrome 70.0.3538.102,,2018-11-19 14:56:40,2018-11-19 14:56:40,0.014s,PASSED
+waitForElementVisible,Chrome 70.0.3538.102,,2018-11-19 14:56:40,2018-11-19 14:56:45,5.448s,PASSED
+clickEvent.SelectServices.clickUsingJS1,Chrome 70.0.3538.102,,2018-11-19 14:56:45,2018-11-19 14:56:51,5.479s,ERROR

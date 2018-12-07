@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Booking Services,Chrome 70.0.3538.102,,2018-11-19 14:28:50,2018-11-19 14:30:11,1m - 20.942s,FAILED
+,,,,,,
+Test Cases/Booking Services for Customer,Chrome 70.0.3538.102,,2018-11-19 14:28:50,2018-11-19 14:29:08,17.449s,FAILED
+openBrowser,Chrome 70.0.3538.102,,2018-11-19 14:28:51,2018-11-19 14:28:55,3.744s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-19 14:28:55,2018-11-19 14:28:57,2.745s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-19 14:28:57,2018-11-19 14:29:07,10.063s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-19 14:29:07,2018-11-19 14:29:08,0.134s,FAILED
+,,,,,,
+Test Cases/Accept Booking,Chrome 70.0.3538.102,Service Provider will accept the booking without any change request,2018-11-19 14:29:08,2018-11-19 14:29:36,28.316s,FAILED
+openBrowser,Chrome 70.0.3538.102,,2018-11-19 14:29:08,2018-11-19 14:29:11,2.908s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-19 14:29:11,2018-11-19 14:29:26,14.832s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-19 14:29:26,2018-11-19 14:29:36,10.060s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-19 14:29:36,2018-11-19 14:29:36,0.075s,FAILED
+,,,,,,
+Test Cases/Mark as complete,Chrome 70.0.3538.102,Clicking on button Mark service as complete,2018-11-19 14:29:36,2018-11-19 14:30:10,33.865s,FAILED
+openBrowser,Chrome 70.0.3538.102,,2018-11-19 14:29:36,2018-11-19 14:29:40,3.716s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,,2018-11-19 14:29:40,2018-11-19 14:29:56,15.558s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-19 14:29:56,2018-11-19 14:30:02,6.012s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-19 14:30:02,2018-11-19 14:30:10,8.041s,FAILED
